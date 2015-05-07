@@ -8,10 +8,11 @@
 // @grant       none
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js
 // @author      severi
+// @run-at document-start
 // ==/UserScript==
 
-if ($("html").hasClass("no-js")){
-    $("html").removeClass("no-js");
-    console.log("paywall removed");
-}
+hs.paywall=true;
 
+$( document ).ready(function() {
+    $("html").removeClass("no-js");
+});
