@@ -13,4 +13,5 @@
 $( document ).ready(function() {
     $("#article-text p").css("display", "block");
     $("#paywall").css("display", "none");
+    $("div#content div").css("display", "block");
 });
