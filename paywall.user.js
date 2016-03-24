@@ -8,6 +8,7 @@
 // @grant       none
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js
 // @author      severi
+// @run-at      document-end
 // ==/UserScript==
 
 $( document ).ready(function() {
