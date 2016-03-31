@@ -16,8 +16,5 @@
 
 $( document ).ready(function() {
     $("#article-text p").css("display", "block");
-    $("div#content div").css("display", "block");
-    $("#article-speaker-content").css("display", "none");
-    $("#paywall").css("display", "none !important");
-    $("#paywall *").css("display", "none !important");
+    $("#paywall").css("display", "none");
 });
