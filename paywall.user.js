@@ -16,5 +16,6 @@
 
 $( document ).ready(function() {
     $("#article-text p").css("display", "block");
+    $(".main-image-area.image.embedded-image.default").css("display", "block");
     $("#paywall").css("display", "none");
 });
